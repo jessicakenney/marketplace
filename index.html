@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MarketPlace</title>
+    <link rel="stylesheet" href="css/bootstrap.css"type="text/css">
+    <link rel="stylesheet" href="css/styles.css"type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    </script>
+  </head>
+  <body>
+    <h1>Precious Pearl MarketPlace</h1>
+    <h2>Welcome, Please enter personal information</h2>
+    <br>
+    <div class="container">
+        <form id="userInfoForm">
+          <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input id="fullName" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="homeAddress">Home Address</label>
+            <input id="homeAddress" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Submit your information</button>
+        </form>
+        <br>
+        <div id="receipt">
+          <h1>Thank You <span class="fullName"></span></h1>
+        </div>
+
+    </div>
+  </body>
+</html>
