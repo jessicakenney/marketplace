@@ -27,13 +27,44 @@
             <label for="homeAddress">Home Address</label>
             <input id="homeAddress" class="form-control" type="text">
           </div>
+          <div class="form-group">
+            <label for="additionalInfo">Additional Information</label>
+            <input id="additionalInfo" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <h5>Select Items</h5>
+            <select class="form-control" id="jewelry">
+              <option>Ear Rings</option>
+              <option>Necklace</option>
+              <option>Nose Ring</option>
+              <option>Hair accessories</option>
+              <option>Toe Rings</option>
+              <option>Rings</option>
+            </select>
+          </div>
+          <h5>Select Quantity</h5>
+              <div class="radio">
+                <label>
+                <input type="radio" name="quantity" value="5" checked>5</label>
+              </div>
+              <div class="radio">
+                <label>
+                <input type="radio" name="quantity" value="10">10</label>
+              </div>
+              <div class="radio">
+                <label>
+                <input type="radio" name="quantity" value="15">15</label>
+              </div>
           <button type="submit" class="btn">Submit your information</button>
         </form>
         <br>
+      </div>
         <div id="receipt">
-          <h1>Thank You <span class="fullName"></span></h1>
+          <h2>Thank You <span class="fullName"></span> Hope to see you again.</h2>
+          <br>
+          <h3>Order Item: <span class="jewelry"></span> Quantity: <span class="quantity"></span></h3>
         </div>
 
-    </div>
+
   </body>
 </html>
